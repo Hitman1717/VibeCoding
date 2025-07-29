@@ -1,0 +1,111 @@
+:root, [data-bs-theme="dark"] {
+  --bs-body-bg: #212529;
+  --bs-body-color: #dee2e6;
+  --bs-secondary: #6c757d;
+  --bs-light: #343a40;
+  --bs-light-rgb: 52, 58, 64;
+  --bs-dark: #212529;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-card-bg: #343a40;
+  --bs-card-border-color: rgba(255, 255, 255, 0.125);
+  --bs-list-group-bg: #343a40;
+  --bs-list-group-border-color: rgba(255, 255, 255, 0.125);
+  --bs-list-group-color: #dee2e6;
+  --bs-body-tertiary-bg: #2b3035;
+  --bs-form-control-bg: #2b3035;
+  --bs-form-control-color: #dee2e6;
+  --bs-form-control-border-color: #495057;
+}
+
+/* Sunset Theme */
+[data-bs-theme="sunset"] {
+  --bs-primary: #e13661;
+  --bs-primary-rgb: 225, 54, 97;
+  --bs-secondary: #a11477;
+  --bs-body-bg: #2d0f2f;
+  --bs-body-color: #f0e6ef;
+  --bs-dark: #2d0f2f;
+  --bs-dark-rgb: 45, 15, 47;
+  --bs-light: #4b294c;
+  --bs-light-rgb: 75, 41, 76;
+  --bs-card-bg: #4b294c;
+  --bs-card-border-color: #6a496a;
+  --bs-list-group-bg: #4b294c;
+  --bs-list-group-border-color: #6a496a;
+  --bs-list-group-color: #f0e6ef;
+  --bs-body-tertiary-bg: #402441;
+  --bs-link-color: #ff9f8b;
+  --bs-link-hover-color: #ff6f4b;
+  --bs-form-control-bg: #402441;
+  --bs-form-control-color: #f0e6ef;
+  --bs-form-control-border-color: #6a496a;
+}
+
+/* Ocean Blue Theme */
+[data-bs-theme="ocean-blue"] {
+  --bs-primary: #095f92;
+  --bs-primary-rgb: 9, 95, 146;
+  --bs-secondary: #2f5288;
+  --bs-body-bg: #0e2a47;
+  --bs-body-color: #e8f1f2;
+  --bs-dark: #0e2a47;
+  --bs-dark-rgb: 14, 42, 71;
+  --bs-light: #1b4965;
+  --bs-light-rgb: 27, 73, 101;
+  --bs-card-bg: #1b4965;
+  --bs-card-border-color: #5fa8d3;
+  --bs-list-group-bg: #1b4965;
+  --bs-list-group-border-color: #5fa8d3;
+  --bs-list-group-color: #e8f1f2;
+  --bs-body-tertiary-bg: #153a5b;
+  --bs-link-color: #b6e5ed;
+  --bs-link-hover-color: #a1d0fc;
+  --bs-form-control-bg: #153a5b;
+  --bs-form-control-color: #e8f1f2;
+  --bs-form-control-border-color: #5fa8d3;
+}
+
+/* Sky Blue Theme */
+[data-bs-theme="sky-blue"] {
+  --bs-primary: #a1d0fc;
+  --bs-primary-rgb: 161, 208, 252;
+  --bs-secondary: #b6e5ed;
+  --bs-body-bg: #1a2639;
+  --bs-body-color: #d4e4f7;
+  --bs-dark: #1a2639;
+  --bs-dark-rgb: 26, 38, 57;
+  --bs-light: #3e5c76;
+  --bs-light-rgb: 62, 92, 118;
+  --bs-card-bg: #3e5c76;
+  --bs-card-border-color: #748cab;
+  --bs-list-group-bg: #3e5c76;
+  --bs-list-group-border-color: #748cab;
+  --bs-list-group-color: #d4e4f7;
+  --bs-body-tertiary-bg: #2a425a;
+  --bs-link-color: #b6e5ed;
+  --bs-link-hover-color: #ffffff;
+  --bs-btn-color: #1a2639;
+  --bs-form-control-bg: #2a425a;
+  --bs-form-control-color: #d4e4f7;
+  --bs-form-control-border-color: #748cab;
+}
+
+/* General UI improvements to ensure themes apply correctly */
+.navbar {
+    background-color: var(--bs-dark) !important;
+}
+.card {
+    background-color: var(--bs-light) !important;
+}
+.list-group-item {
+     background-color: var(--bs-light) !important;
+}
+.form-control {
+    background-color: var(--bs-form-control-bg) !important;
+    color: var(--bs-form-control-color) !important;
+    border-color: var(--bs-form-control-border-color) !important;
+}
+.form-control::placeholder {
+    color: var(--bs-body-color) !important;
+    opacity: 0.7;
+}
